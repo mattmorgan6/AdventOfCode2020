@@ -1,7 +1,7 @@
 import collections
 
 
-def part_1_code(data):
+def part_2_code(data):
 
     stack = []
 
@@ -84,7 +84,7 @@ with open(input_file_path) as infile:
         next = infile.readline().strip()
         if next != '':
             data = next.split()
-            ans = part_1_code(data)
+            ans = part_2_code(data)
             sum += ans[1]
         else:
             break
